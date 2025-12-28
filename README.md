@@ -44,7 +44,7 @@ A modern, AI-powered interactive web application for discovering authentic Uttar
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v16 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
 
 ### Installation
@@ -67,6 +67,27 @@ A modern, AI-powered interactive web application for discovering authentic Uttar
 
 4. **Open your browser**
    Navigate to `http://localhost:3000`
+
+### 🌐 Deploy to Vercel
+
+#### Quick Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/street-food-finder-up)
+
+#### Manual Deployment
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+
+# Production deployment
+vercel --prod
+```
+
+**Live Demo**: [street-food-finder-up.vercel.app](https://street-food-finder-up.vercel.app)
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## 🛠️ Technology Stack
 
